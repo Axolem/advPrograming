@@ -1,4 +1,5 @@
 #include <iostream>
+#include "cmath"
 
 using namespace std;
 
@@ -48,11 +49,29 @@ int main() {
 //cout << "The value is: " << value;
 
 
-    cout << "Fahrenheit: ";
-    int fahrenheit;
-    cin >> fahrenheit;
-    double celsius = (fahrenheit - 32) / 1.8;
-    cout << "Celsius: " << celsius;
+//    cout << "Fahrenheit: ";
+//    int fahrenheit;
+//    cin >> fahrenheit;
+//    double celsius = (fahrenheit - 32) / 1.8;
+//    cout << "Celsius: " << celsius;
+
+    double result_floor = floor(1.2);
+    double result_pow = pow(50, 56);
+
+// Exercise
+
+    cout << "Enter radius: ";
+    double radius;
+    cin >> radius;
+
+    double area = PI * pow(radius, 2);
+
+    cout << "Area: " << area;
+
+    /*
+     * This is my multiline comments
+     * Cool 😍
+    */
 
     return 0;
 }
