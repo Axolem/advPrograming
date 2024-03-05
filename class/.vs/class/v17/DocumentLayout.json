@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\apps\\school-2024\\advPrograming\\class\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FC581755-F1D3-4204-8A3A-4DC46EDB8D10}|class.vcxproj|C:\\apps\\school-2024\\advPrograming\\class\\Student.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FC581755-F1D3-4204-8A3A-4DC46EDB8D10}|class.vcxproj|solutionrelative:Student.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Student.hpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\class\\Student.hpp",
+              "RelativeDocumentMoniker": "Student.hpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\class\\Student.hpp*",
+              "RelativeToolTip": "Student.hpp*",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-02T02:30:44.93Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

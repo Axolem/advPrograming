@@ -23,7 +23,7 @@ public:
 	bool addCategory(string);
 	void loadDVDsFromFile(string);
 	float determineAverageDVDPrice(string category);
-	int getListOfCategories(string categoryList[]);
+	string* getListOfCategories();
 };
 
 #endif // !1

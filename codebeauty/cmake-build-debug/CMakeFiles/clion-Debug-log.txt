@@ -1,0 +1,6 @@
+C:\Users\axole\AppData\Local\Programs\CLion\bin\cmake\win\x64\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=C:/Users/axole/AppData/Local/Programs/CLion/bin/ninja/win/x64/ninja.exe -G Ninja -S C:\apps\school-2024\advPrograming\codebeauty -B C:\apps\school-2024\advPrograming\codebeauty\cmake-build-debug
+CMake Error at CMakeLists.txt:1 (cmake_minimum_required):
+  CMake 3.28 or higher is required.  You are running version 3.27.8
+
+
+-- Configuring incomplete, errors occurred!

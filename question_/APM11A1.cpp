@@ -1,32 +1,34 @@
 #include <fstream> 
 #include<iostream>
-#include<string>
 #include <sstream>
+#include<string>
+
+#include"DVD.hpp"
+#include"StockList.hpp"
 
 using namespace std;
 
 int main() {
 	string filePath = "Source.csv";
-	string line;
 
-	ifstream ourFile; // Open file for reading
+	// 1. Create the object
+	DVD dvd_1 = DVD();
+	StockList my_stock_list = StockList();
 
-	ourFile.open(filePath, ios::in);
+	// 2. Read the file
+	my_stock_list.loadDVDsFromFile(filePath);
 
-	while (!ourFile.eof()) {
-		if (ourFile.is_open()) {
-			getline(ourFile, line); // Read a line from the file
-			stringstream ss(line);
-			string name;
-			getline(ss, name, ',');
-			cout << name << endl;   // Print the line to the console
+	// 3. We display the avarage for each DVD category
+	string* categories;
 
-		}
-		else {
-			cout << "Unable to open file" << endl;
-		}
+	categories = my_stock_list.getListOfCategories();
+
+
+	for (int i = 0; i < sizeof(categories); i++)
+	{
+		float x = my_stock_list.determineAverageDVDPrice(categories[i]);
+		cout << x << endl;
 	}
-	ourFile.close();        // Close the file
 
 	system("pause");
 	return 0;

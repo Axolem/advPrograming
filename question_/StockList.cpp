@@ -27,7 +27,7 @@ DVD StockList::extractDVDFromString(string line) {
 	getline(ss, name, ',');
 	getline(ss, director, ',');
 	getline(ss, category, ',');
-	ss >> price;
+	getline(ss, price);
 
 	// Add cvalues to our object
 	theDvd.setName(name);
@@ -55,6 +55,7 @@ bool StockList::addCategory(string category) {
 	for (int i = 0; i < cCategoryCounter; i++) {
 		if (cCategoryList[i] == category) {
 			added = true;
+			break;
 		}
 
 		// added = (cCategoryList[i] == category);
@@ -82,10 +83,38 @@ void StockList::loadDVDsFromFile(string fileName) {
 	while (!ourFile.eof() && ourFile.is_open()) {
 		getline(ourFile, line); // Read a line from the file
 		DVD  newDvd = extractDVDFromString(line);
+
+		// Add catgory to cCategory
+		addCategory(newDvd.getCategory());
+
 		cDVDList[cDVDCounter] = newDvd;
 		cDVDCounter++;
 	}
 
 	ourFile.close();        // Close the file
+}
+
+float StockList::determineAverageDVDPrice(string category) {
+	// 1. Init variable sum, how_many_they_are, avg
+	float avarage = 0L, sum = 0L, how_many_they_are = 0L;
+
+	// 2. Loop throuth the list and determing if the is the category
+	for (int i = 0; i <= cDVDCounter; i++) {
+		if (cDVDList[i].getCategory() == category) {
+			sum = sum + cDVDList[i].getPrice();
+			how_many_they_are++;
+		}
+	}
+
+	// 3. Calculate the avarage
+	avarage = sum / how_many_they_are;
+	 
+	
+	// 4. Return the avarage
+	return avarage;
+}
+
+string* StockList::getListOfCategories() {
+	return cCategoryList;
 }
 
