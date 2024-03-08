@@ -1,0 +1,78 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\apps\\school-2024\\advPrograming\\operatorOverload\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAFED44-877D-4B09-B19F-D395BB059BEE}|operatorOverload.vcxproj|C:\\apps\\school-2024\\advPrograming\\operatorOverload\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DCAFED44-877D-4B09-B19F-D395BB059BEE}|operatorOverload.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAFED44-877D-4B09-B19F-D395BB059BEE}|operatorOverload.vcxproj|C:\\apps\\school-2024\\advPrograming\\operatorOverload\\Time.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DCAFED44-877D-4B09-B19F-D395BB059BEE}|operatorOverload.vcxproj|solutionrelative:Time.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DCAFED44-877D-4B09-B19F-D395BB059BEE}|operatorOverload.vcxproj|C:\\apps\\school-2024\\advPrograming\\operatorOverload\\Time.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{DCAFED44-877D-4B09-B19F-D395BB059BEE}|operatorOverload.vcxproj|solutionrelative:Time.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 223,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Time.cpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\operatorOverload\\Time.cpp",
+              "RelativeDocumentMoniker": "Time.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\operatorOverload\\Time.cpp",
+              "RelativeToolTip": "Time.cpp",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAAAHQAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-08T17:18:12.335Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 248,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\operatorOverload\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\operatorOverload\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAABYAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-03-08T17:34:11.581Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Time.hpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\operatorOverload\\Time.hpp",
+              "RelativeDocumentMoniker": "Time.hpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\operatorOverload\\Time.hpp",
+              "RelativeToolTip": "Time.hpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAB8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-03-08T17:13:38.092Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
