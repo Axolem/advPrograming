@@ -1,0 +1,15 @@
+﻿  ques1_1.cpp
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(23,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  ques1_2.cpp
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(23,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'ques1_2.cpp')
+  
+  Generating Code...
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(53,1): warning C4715: 'Transaction::getTransactionAmnt': not all control paths return a value
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(53,1): warning C4715: 'Transaction::getTransactionAmnt': not all control paths return a value
+ques1_2.obj : error LNK2005: "public: __cdecl Transaction::Transaction(int,int,float)" (??0Transaction@@QEAA@HHM@Z) already defined in ques1_1.obj
+ques1_2.obj : error LNK2005: "public: int __cdecl Transaction::getAccountNumber(void)const " (?getAccountNumber@Transaction@@QEBAHXZ) already defined in ques1_1.obj
+ques1_2.obj : error LNK2005: "public: float __cdecl Transaction::getTransactionAmnt(void)const " (?getTransactionAmnt@Transaction@@QEBAMXZ) already defined in ques1_1.obj
+ques1_2.obj : error LNK2005: "public: void __cdecl Transaction::setTransaction(int,int,float)" (?setTransaction@Transaction@@QEAAXHHM@Z) already defined in ques1_1.obj
+MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
+C:\apps\school-2024\advPrograming\CodeChallange1\x64\Debug\CodeChallange1.exe : fatal error LNK1120: 1 unresolved externals
