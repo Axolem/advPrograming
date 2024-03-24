@@ -1,15 +1,157 @@
-﻿  ques1_1.cpp
-C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(23,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
-  ques1_2.cpp
-C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(23,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+﻿  ques1_2.cpp
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(24,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
   (compiling source file 'ques1_2.cpp')
   
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(146,28): warning C4553: '==': result of expression not used; did you intend '='?
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(183,11): warning C4552: '+': result of expression not used
+  ques1_4.cpp
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(24,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'ques1_4.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(146,28): warning C4553: '==': result of expression not used; did you intend '='?
+  (compiling source file 'ques1_4.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(183,11): warning C4552: '+': result of expression not used
+  (compiling source file 'ques1_4.cpp')
+  
+  ques1_5.cpp
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(24,20): warning C4244: '=': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(6,1): error C2011: 'Transaction': 'class' type redefinition
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(21,14): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(22,1): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(23,2): error C2065: 'accountNumber': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(24,2): error C2065: 'transactionType': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(25,2): error C2065: 'transactionAmount': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(26,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(30,19): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(32,2): error C2065: 'accountNumber': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(33,2): error C2065: 'transactionType': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(34,2): error C2065: 'transactionAmount': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(39,18): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(39,18): error C2270: 'getAccountNumber': modifiers not allowed on nonmember functions
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(41,9): error C2065: 'accountNumber': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(46,20): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(46,20): error C2270: 'getTransactionAmnt': modifiers not allowed on nonmember functions
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(48,10): error C2065: 'transactionType': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(49,2): error C2050: switch expression not integral
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(50,18): error C2065: 'transactionAmount': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(52,17): error C2065: 'transactionAmount': undeclared identifier
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(146,28): warning C4553: '==': result of expression not used; did you intend '='?
+  (compiling source file 'ques1_5.cpp')
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(167,15): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(168,23): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(173,6): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(175,50): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(180,23): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_2.cpp(183,13): error C2027: use of undefined type 'Transaction'
+  (compiling source file 'ques1_5.cpp')
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(26,15): error C2079: 'new_transaction' uses undefined class 'Transaction'
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(26,44): error C2027: use of undefined type 'Transaction'
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  see declaration of 'Transaction'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(30,21): error C2679: binary '=': no operator found which takes a right-hand operand of type 'int' (or there is no acceptable conversion)
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(17,1):
+  could be 'Transaction &Transaction::operator =(Transaction &&)'
+  	C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(30,21):
+  	'Transaction &Transaction::operator =(Transaction &&)': cannot convert argument 2 from 'int' to 'Transaction &&'
+  		C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(30,25):
+  		Reason: cannot convert from 'int' to 'Transaction'
+  		C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(30,25):
+  		use of undefined type 'Transaction'
+  		C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  		see declaration of 'Transaction'
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(17,1):
+  or       'Transaction &Transaction::operator =(const Transaction &)'
+  	C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(30,21):
+  	'Transaction &Transaction::operator =(const Transaction &)': cannot convert argument 2 from 'int' to 'const Transaction &'
+  		C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(30,25):
+  		Reason: cannot convert from 'int' to 'const Transaction'
+  		C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(30,25):
+  		use of undefined type 'Transaction'
+  		C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(5,7):
+  		see declaration of 'Transaction'
+  C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(30,21):
+  while trying to match the argument list '(Transaction, int)'
+  
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(74,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_5.cpp(75,2): error C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
   Generating Code...
-C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(53,1): warning C4715: 'Transaction::getTransactionAmnt': not all control paths return a value
-C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(53,1): warning C4715: 'Transaction::getTransactionAmnt': not all control paths return a value
-ques1_2.obj : error LNK2005: "public: __cdecl Transaction::Transaction(int,int,float)" (??0Transaction@@QEAA@HHM@Z) already defined in ques1_1.obj
-ques1_2.obj : error LNK2005: "public: int __cdecl Transaction::getAccountNumber(void)const " (?getAccountNumber@Transaction@@QEBAHXZ) already defined in ques1_1.obj
-ques1_2.obj : error LNK2005: "public: float __cdecl Transaction::getTransactionAmnt(void)const " (?getTransactionAmnt@Transaction@@QEBAMXZ) already defined in ques1_1.obj
-ques1_2.obj : error LNK2005: "public: void __cdecl Transaction::setTransaction(int,int,float)" (?setTransaction@Transaction@@QEAAXHHM@Z) already defined in ques1_1.obj
-MSVCRTD.lib(exe_main.obj) : error LNK2019: unresolved external symbol main referenced in function "int __cdecl invoke_main(void)" (?invoke_main@@YAHXZ)
-C:\apps\school-2024\advPrograming\CodeChallange1\x64\Debug\CodeChallange1.exe : fatal error LNK1120: 1 unresolved externals
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(54,1): warning C4715: 'Transaction::getTransactionAmnt': not all control paths return a value
+C:\apps\school-2024\advPrograming\CodeChallange1\ques1_1.cpp(54,1): warning C4715: 'Transaction::getTransactionAmnt': not all control paths return a value

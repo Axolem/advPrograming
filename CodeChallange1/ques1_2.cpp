@@ -9,7 +9,7 @@
 
 class Account
 {
-private:
+protected:
 	int accountNumber;
 	std::string firstName;
 	std::string lastName;
@@ -17,30 +17,30 @@ private:
 	int repaymentCategory;
 	float balance;
 
-	std::string accountCategoryArr[4][2];
-	int creditLimit[4][3];
+	static std::string accountCategoryArr[4][2];
+	static int creditLimit[4][3];
 
 
 public:
-	Account();
+	//Account();
 	/*
 	* account_number, f_name, l_name, accountCategory, repaymentCategory, balance, accountCategoryArr, creditLimit
 	*/
-	Account(int, std::string, std::string, char, int, float, std::string[4][2], int[4][3]);
+	Account(int a = 0, std::string b = "", std::string c = "", char d = 'P', int e = 0, float f = 0.00, std::string[4][2], int[4][3]);
 
 	/*
 	* account_number, f_name, l_name, accountCategory, repaymentCategory, balance, accountCategoryArr
 	*/
-	void setAccount(int, std::string, std::string, char, int, float, std::string[4][2]);
+	void setAccount(int, std::string, std::string, char, int, float);
 
 	/*
 	* filename
 	*/
-	void readAndSetCreditLimits(std::string) const;
+	static void readAndSetCreditLimits(std::string);
 
 	int determineCreditLimit();
 
-	void operator+ (Transaction);
+	Account& operator+(Transaction&);
 
 	float determineAmountPayable();
 
@@ -48,31 +48,45 @@ public:
 
 	std::map<std::string, std::string> getAccount();
 };
+#endif
 
-Account::Account() {
-	accountNumber = 0;
-	firstName = "";
-	lastName = "";
-	accountCategory = 'P';
-	repaymentCategory = 1;
-	balance = 0;
+//Account::Account() {
+//	accountNumber = 0;
+//	firstName = "";
+//	lastName = "";
+//	accountCategory = 'P';
+//	repaymentCategory = 1;
+//	balance = 0;
+//
+//	int creditLimit[4][3] = {
+//			{300,  600,  900},
+//			{500,  1000, 1500},
+//			{1000, 2000, 3000},
+//			{5000, 7000, 10000}
+//	};
+//
+//	std::string accountCategoryArr[4][2] = {
+//		{ "P","Platinum" },
+//		{ "G","Gold" },
+//		{ "S", "Silver" },
+//		{ "B","Bronze" }
+//	};
+//}
 
-	int creditLimit[4][3] = {
-			{300,  600,  900},
-			{500,  1000, 1500},
-			{1000, 2000, 3000},
-			{5000, 7000, 10000}
-	};
 
-	std::string accountCategoryArr[4][2] = {
-		{ "P","Platinum" },
-		{ "G","Gold" },
-		{ "S", "Silver" },
-		{ "B","Bronze" }
-	};
+int Account::creditLimit[4][3] = {
+		{300,  600,  900},
+		{500,  1000, 1500},
+		{1000, 2000, 3000},
+		{5000, 7000, 10000}
+};
 
-
-}
+std::string Account::accountCategoryArr[4][2] = {
+	{ "P","Platinum" },
+	{ "G","Gold" },
+	{ "S", "Silver" },
+	{ "B","Bronze" }
+};
 
 Account::Account(int account_no, std::string f_name, std::string l_name, char account_category, int repayment_category, float balance_, std::string account_category_arr[4][2], int credit_limit[4][3]) {
 	accountNumber = account_no;
@@ -97,18 +111,24 @@ Account::Account(int account_no, std::string f_name, std::string l_name, char ac
 	}
 }
 
-void Account::setAccount(int account_no, std::string f_name, std::string l_name, char account_category, int repayment_category, float balance_, std::string account_category_arr[4][2]) {
+void Account::setAccount(int account_no, std::string f_name, std::string l_name, char account_category, int repayment_category, float balance_) {
 	accountNumber = account_no;
 	firstName = f_name;
 	lastName = l_name;
 	accountCategory = account_category;
 	repaymentCategory = repayment_category;
 	balance = balance_;
+	std::string accountCategoryArr[4][2] = {
+		{ "P","Platinum" },
+		{ "G","Gold" },
+		{ "S", "Silver" },
+		{ "B","Bronze" }
+	};
 
 	// Copying values from account_category_arr to accountCategoryArr
 	for (int i = 0; i < 4; ++i) {
 		for (int j = 0; j < 2; ++j) {
-			accountCategoryArr[i][j] = account_category_arr[i][j];
+			accountCategoryArr[i][j] = accountCategoryArr[i][j];
 		}
 	}
 
@@ -116,7 +136,7 @@ void Account::setAccount(int account_no, std::string f_name, std::string l_name,
 	Account::readAndSetCreditLimits("creditlimits.csv");
 };
 
-void Account::readAndSetCreditLimits(std::string file_name) const {
+void Account::readAndSetCreditLimits(std::string file_name) {
 	std::fstream file;
 
 	file.open(file_name);
@@ -159,15 +179,15 @@ int Account::determineCreditLimit() {
 };
 
 
-void Account::operator+ (Transaction new_transaction) {
-	if (accountNumber != new_transaction.getAccountNumber()) {
+Account& Account::operator+(Transaction& new_transaction) {
+	if (accountNumber != new_transaction.getTransactionAmnt()) {
 		std::cout << "Cannot apply transaction – account numbers do not match" << std::endl;
 		return;
 	}
 
-	if (new_transaction.getTransactionAmnt() > 0) { // it's a purchase
-		//300					100				500
-		if ((this->determineCreditLimit() + (balance - new_transaction.getTransactionAmnt())) < 0) {
+	if (new_transaction.getTransactionAmnt() < 0) { // it's a purchase
+		//					300				100				500
+		if ((this->determineCreditLimit() + (balance + new_transaction.getTransactionAmnt())) < 0) {
 			std::cout << "Credit limit exceeded – transaction not applied" << std::endl;
 			return;
 		}
@@ -210,7 +230,7 @@ std::map<std::string, std::string> Account::getAccount() {
 
 	account_data["account_description"] = accountCategoryArr[row][1];
 
-	return account_data;
+	return account_data, account_data;
 }
 
-#endif
+
