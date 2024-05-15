@@ -1,0 +1,58 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\apps\\school-2024\\advPrograming\\assignment2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD178D5-598E-400D-AB7D-799EED02B84F}|assignment2.vcxproj|C:\\apps\\school-2024\\advPrograming\\assignment2\\RunAssignment3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FD178D5-598E-400D-AB7D-799EED02B84F}|assignment2.vcxproj|solutionrelative:RunAssignment3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FD178D5-598E-400D-AB7D-799EED02B84F}|assignment2.vcxproj|C:\\apps\\school-2024\\advPrograming\\assignment2\\DVD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6FD178D5-598E-400D-AB7D-799EED02B84F}|assignment2.vcxproj|solutionrelative:DVD.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 186,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "RunAssignment3.cpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\assignment2\\RunAssignment3.cpp",
+              "RelativeDocumentMoniker": "RunAssignment3.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\assignment2\\RunAssignment3.cpp",
+              "RelativeToolTip": "RunAssignment3.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-14T13:08:11.166Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DVD.cpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\assignment2\\DVD.cpp",
+              "RelativeDocumentMoniker": "DVD.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\assignment2\\DVD.cpp",
+              "RelativeToolTip": "DVD.cpp",
+              "ViewState": "AQIAABMAAAAAAAAAAAAAABYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-11T11:53:04.783Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
