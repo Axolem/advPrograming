@@ -13,7 +13,7 @@ TwelveMonthAccount::TwelveMonthAccount(int aN, std::string fN, std::string sN, c
 
 TwelveMonthAccount::TwelveMonthAccount() {
 	balance = 0.0;
-}.0.00000000000000000000000000000000000
+}
 
 
 float TwelveMonthAccount::calculateInterest() const {

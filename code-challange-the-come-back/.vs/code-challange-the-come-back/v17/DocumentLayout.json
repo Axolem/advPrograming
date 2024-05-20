@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{F08B0BDC-FCCE-4104-9328-09FF5DF7342D}|code-challange-the-come-back.vcxproj|C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F08B0BDC-FCCE-4104-9328-09FF5DF7342D}|code-challange-the-come-back.vcxproj|solutionrelative:ques1_6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{F08B0BDC-FCCE-4104-9328-09FF5DF7342D}|code-challange-the-come-back.vcxproj|C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_2.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F08B0BDC-FCCE-4104-9328-09FF5DF7342D}|code-challange-the-come-back.vcxproj|solutionrelative:ques1_2.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F08B0BDC-FCCE-4104-9328-09FF5DF7342D}|code-challange-the-come-back.vcxproj|C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F08B0BDC-FCCE-4104-9328-09FF5DF7342D}|code-challange-the-come-back.vcxproj|solutionrelative:ques1_3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F08B0BDC-FCCE-4104-9328-09FF5DF7342D}|code-challange-the-come-back.vcxproj|C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F08B0BDC-FCCE-4104-9328-09FF5DF7342D}|code-challange-the-come-back.vcxproj|solutionrelative:ques1_6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{F08B0BDC-FCCE-4104-9328-09FF5DF7342D}|code-challange-the-come-back.vcxproj|C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_3.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -62,17 +62,16 @@
               "RelativeToolTip": "ques1_1.cpp",
               "ViewState": "AQIAAA0AAAAAAAAAAAAAABoAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-03-20T12:53:05.082Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-20T12:53:05.082Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "ques1_6.cpp",
               "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_6.cpp",
               "RelativeDocumentMoniker": "ques1_6.cpp",
-              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_6.cpp",
-              "RelativeToolTip": "ques1_6.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_6.cpp*",
+              "RelativeToolTip": "ques1_6.cpp*",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-03-20T11:30:20.282Z",
@@ -99,7 +98,7 @@
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
         "Id": "3d014185-58db-4fdf-ba0e-b9169743d794",
-        "Display": 1,
+        "Display": 0,
         "X": -419,
         "Y": 132,
         "Width": 1070,
@@ -133,7 +132,7 @@
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
         "Id": "d9f77927-018e-404e-aece-e01bb2cb0819",
-        "Display": 1,
+        "Display": 0,
         "X": 216,
         "Y": -90,
         "Width": 1070,
@@ -167,7 +166,7 @@
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
         "Id": "75a0384f-5367-4a37-bd74-80aa69a694e5",
-        "Display": 1,
+        "Display": 0,
         "X": -389,
         "Y": -154,
         "Width": 1070,
@@ -181,7 +180,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ques1_2.hpp",
               "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_2.hpp",
               "RelativeDocumentMoniker": "ques1_2.hpp",
@@ -201,7 +200,7 @@
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
         "Id": "4653cf22-e499-456f-967a-50cc12933e3c",
-        "Display": 1,
+        "Display": 0,
         "X": -475,
         "Y": -57,
         "Width": 1040,
@@ -215,7 +214,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "ques1_3.cpp",
               "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\code-challange-the-come-back\\ques1_3.cpp",
               "RelativeDocumentMoniker": "ques1_3.cpp",
@@ -235,7 +234,7 @@
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
         "Id": "5c715a64-002f-4403-9744-016bfc57de8a",
-        "Display": 1,
+        "Display": 0,
         "X": -195,
         "Y": 44,
         "Width": 1070,
@@ -269,7 +268,7 @@
       "VerticalTabListWidth": 256,
       "FloatingWindowState": {
         "Id": "8205d9ce-bc07-45f2-9274-7f8e8b60f83f",
-        "Display": 1,
+        "Display": 0,
         "X": 295,
         "Y": 52,
         "Width": 1040,

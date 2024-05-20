@@ -1,0 +1,32 @@
+Question 1.1
+
+Function COUNT_OCCURRENCES(head, key)
+    Initialize current to head
+    Initialize count to 0
+    
+    While current is not null
+        If current.data equals key
+            Increment count by 1
+        Set current to current.next
+    
+    Return count
+EndFunction
+
+Question 1.2
+
+Function SWAP_FIRST_LAST(head)
+    If head is null or head.next is nill
+        Return head
+
+    Set first to head
+    Set last to head
+    Initialize prev to null
+
+    While last.next is not None
+        Set prev to last
+        Set last to last.next
+
+    Exchange data between first and last
+
+    Return head
+EndFunction
