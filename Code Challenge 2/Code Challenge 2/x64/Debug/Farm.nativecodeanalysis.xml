@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\apps\school-2024\advPrograming\Code Challenge 2\</FILEPATH>
+      <FILENAME>Farm.cpp</FILENAME>
+      <LINE>3</LINE>
+      <COLUMN>6</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'Farm::crops' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>Farm::{ctor}</FUNCTION>
+    <DECORATED>??0Farm@@QEAA@V?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@@Z</DECORATED>
+    <FUNCLINE>3</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>Farm::crops</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\apps\school-2024\advPrograming\Code Challenge 2\</FILEPATH>
+      <FILENAME>Farm.cpp</FILENAME>
+      <LINE>18</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>6386</DEFECTCODE>
+    <DESCRIPTION>Buffer overrun while writing to 'this-&gt;crops'.</DESCRIPTION>
+    <FUNCTION>Farm::addCrop</FUNCTION>
+    <DECORATED>?addCrop@Farm@@QEAAXAEAVAdvancedCrop@@@Z</DECORATED>
+    <FUNCLINE>16</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\apps\school-2024\advPrograming\Code Challenge 2\</FILEPATH>
+        <FILENAME>Farm.cpp</FILENAME>
+        <LINE>17</LINE>
+        <COLUMN>20</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this branch, (assume 'cropCounter&lt;10')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\apps\school-2024\advPrograming\Code Challenge 2\</FILEPATH>
+        <FILENAME>Farm.cpp</FILENAME>
+        <LINE>18</LINE>
+        <COLUMN>29</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid write to 'this-&gt;crops[10]', (writable range is 0 to 9)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\Farmer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|solutionrelative:Farmer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\Farm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|solutionrelative:Farm.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\Crop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|solutionrelative:Crop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\APM11A1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|solutionrelative:APM11A1.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\AdvancedCrop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{BCB3834E-073D-4E6C-922A-D425CDE2F24A}|Code Challenge 2.vcxproj|solutionrelative:AdvancedCrop.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Farmer.cpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\Farmer.cpp",
+              "RelativeDocumentMoniker": "Farmer.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\Farmer.cpp",
+              "RelativeToolTip": "Farmer.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-07T07:55:37.633Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Farm.cpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\Farm.cpp",
+              "RelativeDocumentMoniker": "Farm.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\Farm.cpp",
+              "RelativeToolTip": "Farm.cpp",
+              "ViewState": "AQIAAAUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-07T07:55:27.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Crop.cpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\Crop.cpp",
+              "RelativeDocumentMoniker": "Crop.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\Crop.cpp",
+              "RelativeToolTip": "Crop.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-07T07:55:23.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "APM11A1.cpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\APM11A1.cpp",
+              "RelativeDocumentMoniker": "APM11A1.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\APM11A1.cpp",
+              "RelativeToolTip": "APM11A1.cpp",
+              "ViewState": "AQIAABAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-07T07:55:12.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdvancedCrop.cpp",
+              "DocumentMoniker": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\AdvancedCrop.cpp",
+              "RelativeDocumentMoniker": "AdvancedCrop.cpp",
+              "ToolTip": "C:\\apps\\school-2024\\advPrograming\\Code Challenge 2\\AdvancedCrop.cpp",
+              "RelativeToolTip": "AdvancedCrop.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-06-07T07:55:03.698Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.40.33811.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/apps/school-2024/advprograming/code challenge 2/advancedcrop.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "02482a87eb6eaddffdcb3824692797b9f714a35cfed4b0c189cdbcf3c4767836"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/apps/school-2024/advprograming/code challenge 2/advancedcrop.hpp"
+          },
+          "hashes": {
+            "sha-256": "97a2bdcf5fea50b67f28cca21d7d48a96d2c6aaf2b0c7eaf7da29a5b3417f109"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/apps/school-2024/advprograming/code challenge 2/crop.hpp"
+          },
+          "hashes": {
+            "sha-256": "d02f7fec3f7990813537a7b8684e3f85a871a0acf969194f8923a2ffcbaad86f"
+          }
+        }
+      ]
+    }
+  ]
+}
